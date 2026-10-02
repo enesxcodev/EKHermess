@@ -1,0 +1,23 @@
+# Hermes private data
+/data/
+/backups/
+
+# Secrets
+.env
+.env.*
+!.env.example
+auth.json
+auth.lock
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.tar.gz
+*.zip
+
+# Runtime
+logs/
+cache/
+sessions/
+memories/
